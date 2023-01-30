@@ -1,0 +1,46 @@
+add_self_loops:
+- true
+agent_package:
+- 100
+chunk_size:
+- 64
+diff_or:
+- true
+dropout_rate:
+- 0.5
+dropout_rate2:
+- None
+epochs:
+- 2000
+global_gating:
+- false
+hidden_channel:
+- 256
+index_split:
+- 0
+learning_rate:
+- 0.005
+log_freq:
+- 200
+model:
+- GAT
+num_layers:
+- 2
+num_layers_input:
+- 2
+patience:
+- 200
+save_model:
+- false
+seed:
+- 42
+simple_gating:
+- false
+task:
+- CiteSeer_full
+tm:
+- true
+weight_decay:
+- 5.0e-06
+weight_decay2:
+- None

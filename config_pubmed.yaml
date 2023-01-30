@@ -1,0 +1,66 @@
+add_self_loops:
+- false
+agent_package:
+- 100
+chunk_size:
+- 64
+diff_or:
+- true
+dropout_rate:
+- 0
+- 0.1
+- 0.2
+- 0.3
+- 0.4
+- 0.5
+dropout_rate2:
+- 0
+- 0.1
+- 0.2
+- 0.3
+- 0.4
+- 0.5
+epochs:
+- 2000
+global_gating:
+- false
+hidden_channel:
+- 256
+index_split:
+- 0
+learning_rate:
+- 0.01
+- 0.005
+- 0.001
+log_freq:
+- 200
+model:
+- ONGNN
+num_layers:
+- 64
+num_layers_input:
+- 2
+patience:
+- 200
+save_model:
+- false
+seed:
+- 42
+simple_gating:
+- false
+task:
+- PubMed_full
+tm:
+- true
+weight_decay:
+- 5.0e-01
+- 5.0e-02
+- 5.0e-03
+- 5.0e-06
+- 5.0e-08
+weight_decay2:
+- 5.0e-01
+- 5.0e-02
+- 5.0e-03
+- 5.0e-06
+- 5.0e-08

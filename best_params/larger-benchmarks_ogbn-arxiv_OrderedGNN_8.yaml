@@ -1,0 +1,55 @@
+add_self_loops:
+- false
+agent_package:
+- 100
+chunk_size:
+- 64
+diff_or:
+- true
+dropout_rate:
+- 0.2
+dropout_rate2:
+- 0.05
+epochs:
+- 2000
+global_gating:
+- true
+hidden_channel:
+- 256
+index_split:
+- 0
+learning_rate:
+- 0.005
+log_freq:
+- 200
+model:
+- ONGNN
+num_layers:
+- 8
+num_layers_input:
+- 3
+patience:
+- 200
+save_model:
+- false
+seed:
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+simple_gating:
+- false
+task:
+- ogbn-arxiv
+tm:
+- true
+weight_decay:
+- 0.0005
+weight_decay2:
+- 5.0e-08

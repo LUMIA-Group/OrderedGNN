@@ -1,0 +1,55 @@
+add_self_loops:
+- false
+agent_package:
+- 100
+chunk_size:
+- 64
+diff_or:
+- true
+dropout_rate:
+- 0.1
+dropout_rate2:
+- 0.2
+epochs:
+- 2000
+global_gating:
+- false
+hidden_channel:
+- 256
+index_split:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+learning_rate:
+- 0.005
+log_freq:
+- 200
+model:
+- ONGNN
+num_layers:
+- 8
+num_layers_input:
+- 1
+patience:
+- 200
+save_model:
+- false
+seed:
+- 42
+simple_gating:
+- false
+task:
+- Cora_geom
+tm:
+- true
+weight_decay:
+- 5.0e-06
+weight_decay2:
+- 5.0e-06
