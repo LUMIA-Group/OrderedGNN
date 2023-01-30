@@ -1,12 +1,15 @@
 # Ordered GNN
 
+The official implementation of the paper "Ordered GNN: Ordering Message Passing to Deal with Heterophily and Over-smoothing" ([ICLR 2023 poster](https://openreview.net/forum?id=wKPmPBHSnT6)).
+
 <p align="middle">
 <img src="pics/nested_tree.png" width="400">
 </p>
 
-The official implementation of the paper "Ordered GNN: Ordering Message Passing to Deal with Heterophily and Over-smoothing" ([ICLR 2023 poster](https://openreview.net/forum?id=wKPmPBHSnT6)).
-
 ## Dependencies
+
+This is the list of the package versions required for our experiments.
+
 ```txt
 python==3.8.12
 torch==1.11.0
@@ -55,8 +58,7 @@ We manage our experiments with [wandb](https://wandb.ai), to reproduce the resul
 If you found the provided code with our paper useful in your work, we kindly request that you cite our work. 
 
 ```BibTex
-@inproceedings{
-    song2023ordered,
+@inproceedings{song2023ordered,
     title={Ordered GNN: Ordering Message Passing to Deal with Heterophily and Over-smoothing},
     author={Song, Yunchong and Zhou, Chenghu and Wang, Xinbing and Lin, Zhouhan},
     booktitle={International Conference on Learning Representations},
