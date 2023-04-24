@@ -1,6 +1,6 @@
 # Ordered GNN
 
-The official implementation of the paper "Ordered GNN: Ordering Message Passing to Deal with Heterophily and Over-smoothing" ([ICLR 2023 poster](https://openreview.net/forum?id=wKPmPBHSnT6)).
+The official implementation of the paper "Ordered GNN: Ordering Message Passing to Deal with Heterophily and Over-smoothing" ([ICLR 2023](https://openreview.net/forum?id=wKPmPBHSnT6)).
 
 <p align="middle">
 <img src="pics/nested_tree.png" width="400">
